@@ -1,1 +1,15 @@
+table {
+    background-color: #cdefff;  /* 背景色指定 */
+    border-collapse :  collapse;  /* セルの線を重ねる */
+    width:  50%;               /* 幅指定 */
+    table-layout: fixed;        /* セルの幅計算指定 */
+}
 
+th,td {
+    border: solid 1px;            /* 枠線指定 */
+    padding: 10px;                /* 余白指定 */
+}
+
+th {
+    background-color: #00e2cf;  /* 背景色指定 */
+}
