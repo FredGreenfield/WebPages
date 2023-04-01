@@ -1,15 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+body {
+    font-family: 'Noto Serif JP', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-bottom:2%;
+}
+
+footer {
+    text-align: center;
+    padding-top:2%;
+    font-size: 15%;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive, sans-serif;
+    font-size: 400%;
+}
+
 table {
-    background-color: #cdefff;  /* 背景色指定 */
-    border-collapse :  collapse;  /* セルの線を重ねる */
-    width:  50%;               /* 幅指定 */
     table-layout: fixed;        /* セルの幅計算指定 */
+    border: 0px;
+    margin: auto;
+}
+
+caption {
+    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 
 th,td {
-    border: solid 1px;            /* 枠線指定 */
-    padding: 10px;                /* 余白指定 */
-}
-
-th {
-    background-color: #00e2cf;  /* 背景色指定 */
+    padding: 10px;
+    padding-bottom: 0px;
+    vertical-align: bottom;
+    border-bottom: 1px solid black;
 }
