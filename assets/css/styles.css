@@ -26,6 +26,8 @@ table {
     table-layout: fixed;        /* セルの幅計算指定 */
     border: 0px;
     margin: auto;
+    border-spacing: 5px;
+    width: 80%;
 }
 
 caption {
