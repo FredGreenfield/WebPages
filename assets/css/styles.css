@@ -41,3 +41,7 @@ th,td {
     vertical-align: bottom;
     border-bottom: 1px solid black;
 }
+
+p.notes {
+    font-size: x-small;
+}
